@@ -228,13 +228,6 @@ box-shadow: inset 0px 8px 0px 0px rgba(0,0,0,0.1), 0px 8px 0px 0px #c76c1b;
   letter-spacing: 2px;
   cursor: pointer;
 }
-/* @media screen and (max-width:768px) {
-  #btn_regole {
-    left:50%;
-    transform: translateX(-50%);
-  }
-} */
-
 #bg_regole {
   position: fixed;
   top: 0;
