@@ -258,6 +258,13 @@ box-shadow: inset 0px 8px 0px 0px rgba(0,0,0,0.1), 0px 8px 0px 0px #c76c1b;
   border-radius: 10px;
   margin: 0 auto;
 }
+@media screen and (max-width:768px) {
+  .box_regole {
+    width: 300px;
+
+  }
+}
+
 .label_regole {
   display: flex;
   font-size: 25px;
