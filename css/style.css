@@ -51,7 +51,12 @@ header {
   width: 80%;
   display: flex;
   padding: 20px 30px;
-
+}
+@media screen and (max-width:768px) {
+  header {
+    height: 120px;
+    padding: 18px 20px;
+  }
 }
 .logo {
   display: flex;
@@ -63,12 +68,23 @@ header {
   border-radius: 5px;
   text-align: center;
   color: #58566b;
-  padding: 15px;
+  padding: 15px 30px;
+}
+@media screen and (max-width:768px) {
+  .score {
+    padding: 10px 20px;
+  }
 }
 #score_number {
   font-size: 60px;
   font-weight: 700;
   line-height: 65px;
+}
+@media screen and (max-width:768px) {
+  #score_number {
+    font-size: 50px;
+    line-height: 40px;
+  }
 }
 
 /* FASE1 */
