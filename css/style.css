@@ -260,9 +260,11 @@ box-shadow: inset 0px 8px 0px 0px rgba(0,0,0,0.1), 0px 8px 0px 0px #c76c1b;
 }
 @media screen and (max-width:768px) {
   .box_regole {
-    width: 300px;
-
+    width: 250px;
   }
+  .box_regole img {
+  width: 100%;
+}
 }
 
 .label_regole {
