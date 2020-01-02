@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:600,700&display=swap" rel="stylesheet">
+  <title>Sasso, Carta, Forbici</title>
+</head>
+<body>
+
+  <!-- HEADER -->
+    <header>
+      <div class="logo"><h1>SASSO <br> CARTA <br> FORBICI</h1></div>
+      <div class="score">
+        <p>PUNTEGGIO</p>
+        <p id="score_number">00</p>
+      </div>
+    </header>
+
+    <!-- FASE1 -->
+    <div id="fase1" class="fase_scelta bg_triangolo align_center">
+      <div class="option_wrapper align_center">
+        <div id="sasso" class="options colore_sasso ">
+          <img src="images/icon-rock.svg" alt="Sasso">
+        </div>
+        <div id="carta" class="options colore_carta">
+          <img src="images/icon-paper.svg" alt="Carta">
+        </div>
+      </div>
+      <div class="option_wrapper align_center">
+        <div id="forbici" class="options colore_forbici">
+          <img src="images/icon-scissors.svg" alt="Forbici">
+        </div>
+      </div>
+    </div>
+    <!-- FINE FASE1 -->
+
+    <!-- FASE2 -->
+    <div id="fase2" class="fase2_flex display_none">
+      <div id="box_scelta_giocatore">
+        <h2>LA TUA SCELTA</h2>
+        <div id="sasso_utente" class="colore_sasso options display_none">
+          <img src="images/icon-rock.svg" alt="Sasso">
+        </div>
+        <div id="carta_utente" class="colore_carta options display_none">
+          <img src="images/icon-paper.svg" alt="Carta">
+        </div>
+        <div id="forbici_utente" class="colore_forbici options display_none">
+          <img src="images/icon-scissors.svg" alt="Forbici">
+        </div>
+      </div>
+
+      <!-- Rigioca -->
+      <div id="rigioca" class="display_none">
+        <div id="esito" class="">PARI</div>
+        <div id="btn_rigioca">GIOCA ANCORA</div>
+      </div>
+
+      <!-- Scelta del computer -->
+      <div id="box_scelta_computer">
+        <h2>LA SUA SCELTA</h2>
+        <div id="scegliendo" class="options">
+          <p class="scegliendo"></p>
+        </div>
+        <div id="sasso_bot" class="colore_sasso options display_none">
+          <img src="images/icon-rock.svg" alt="Sasso">
+        </div>
+        <div id="carta_bot" class="colore_carta options display_none">
+          <img src="images/icon-paper.svg" alt="Carta">
+        </div>
+        <div id="forbici_bot" class="colore_forbici options display_none">
+          <img src="images/icon-scissors.svg" alt="Forbici">
+        </div>
+      </div>
+</div>
+    <!-- FINE FASE2 -->
+
+    <!-- REGOLE -->
+    <div id="btn_regole">
+      REGOLE
+    </div>
+    <div id="bg_regole" class="display_none">
+      <div class="box_regole">
+        <div class="label_regole">
+          <h3>REGOLE</h3>
+          <p class="chiudi">X</p>
+        </div>
+        <img src="images/image-rules.svg" alt="">
+      </div>
+    </div>
+    <script src="js/script.js" charset="utf-8"></script>
+</body>
+</html>
